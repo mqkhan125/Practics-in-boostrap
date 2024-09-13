@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+     .container{
+            border: 0 solid black;
+        }
+
+        .row{
+            border: 0 solid red;
+        }
+
+        .col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+            border: 0 solid blue;
+        }
+
+        #header{
+            background-color: orange;
+            padding: 10px 0 10px 10px;
+        }
+        #header h1{
+            font-size: 40px;
+            text-align: center;
+        }
+
+        #menu{
+            background-color: pink;
+            padding: 3px;
+        }
+
+        #menu ul{
+          list-style: none;
+          display: flex;
+         
+        }
+
+        #menu ul li{
+         padding: 17px;
+         
+        }
+        #menu ul li a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+        }
+
+        #content{
+            background-color: white;
+        }
+
+        #sidebar{
+            background-color: lightblue;
+        }
+
+        #footer{
+            background-color: cadetblue;
+            padding: 10px;
+        }
+
+        #footer p{
+            font-size: 20px;
+            margin: 0 0 0 80%;
+        }
+  
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12" id="header">
+                <h1>My Website</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Gallary</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Product</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8" id="content">
+                <h2>Sub Heading</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, autem. Vitae explicabo optio
+                    voluptates quasi, corporis ducimus nulla voluptatem, a mollitia debitis ipsum perferendis. Nemo,
+                    obcaecati deserunt? Culpa enim veritatis maiores maxime facilis obcaecati, cumque debitis beatae
+                    aliquid qui sapiente delectus voluptatibus pariatur sit eligendi cum corrupti ipsa quis a! Porro
+                    cumque perferendis inventore illo, adipisci sed pariatur sunt quaerat saepe sequi, nobis autem
+                    distinctio omnis ut animi doloremque quis blanditiis voluptate minus ab. Consequatur ullam amet
+                    cupiditate sed voluptates ipsum saepe quae, ipsam doloremque voluptas minus nulla? Natus explicabo
+                    inventore magnam unde, excepturi sint culpa veritatis deleniti nisi cum, alias voluptas numquam iste
+                    itaque sit voluptatem debitis tempore voluptate consequatur sapiente perferendis? Tenetur itaque
+                    culpa consectetur ad sint, accusantium omnis quos quis debitis quia!</p>
+            </div>
+            <div class="col-md-4" id="sidebar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="footer">
+               <p>@copyright 2024.</p> 
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
